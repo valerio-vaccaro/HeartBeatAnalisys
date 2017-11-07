@@ -1,0 +1,335 @@
+File names are of the following structrue:
+
+XX-macmacmacmac-YYYY-MM-DD-hh-mm-ss.txt
+
+[XX - sensor and measurement type]
+
+ANDACCX         - Android Accelerometer X
+ANDACCY         - Android Accelerometer Y
+ANDACCZ         - Android Accelerometer Z
+ANDACCA         - Android Accelerometer Absolute Value
+ANDORIAZ        - Android Orientation Azimuth
+ANDORIPI        - Android Orientation Pitch
+ANDORIRO        - Android Orientation Roll
+ANDMAFX         - Android Magnetic Field X
+ANDMAFY         - Android Magnetic Field Y
+ANDMAFZ         - Android Magnetic Field Z
+ANDLIG          - Android Light
+ANDPRO          - Android Proximity
+ANDGPSLA        - Android GPS Latitude
+ANDGPSLO        - Android GPS Longitude
+ANDGPSAL        - Android GPS Altitude m
+ANDVIMGPSAL     - Android GPS Altitude ft
+ANDGPSAC        - Android GPS Accuracy m
+ANDVIMGPSAC     - Android GPS Accuracy ft
+ANDGPSSP        - Android GPS Speed km/h
+ANDVIMGPSSP     - Android GPS Speed mph
+ANDGPSDI        - Android GPS Distance km
+ANDVIMGPSDI     - Android GPS Distance mi
+ANDTAM          - Android Ambient Temperature °C
+ANDVIMTAM       - Android Ambient Temperature °F
+ANDTDE          - Android Device Temperature °C
+ANDVIMTDE       - Android Device Temperature °F
+ANDPRE          - Android Pressure
+ANDHUM          - Android Relative Humidity
+ANDSTD          - Android Step Detector
+ANDSTC          - Android Step Count since the last reboot while activated
+ANDBATLE        - Android Battery Level
+ANDBATTE        - Android Battery Temperature
+ANDBATVO        - Android Battery Voltage
+ANDGSMSS        - Android GSM Signal Strength
+ANDWIFSS        - Android WIFI Signal Strength
+ANDBTHSS        - Android Bluetooth Signal Strength
+ANDMICLV        - Android Microphone Level
+ANDMICAR        - Android Microphone Audio Recording
+ANDPHOCA        - Android Phone Calls
+ANDPHOIN        - Android Phone Incoming Calls
+ANDPHOOU        - Android Phone Outgoing Calls
+ANDPHOMI        - Android Phone Missed Calls
+ANDSMSIN        - Android Incoming SMS
+ANDSMSOU        - Android Outgoing SMS
+
+A39HRMHR        - Armour39 Heart Rate
+A39HRMCD        - Armour39 Contact Detected
+A39HRMRR        - Armour39 RR Interval
+A39BAT          - Armour39 Battery Level
+A39WRKST        - Armour39 Steps
+A39WRKCA        - Armour39 Calories
+A39WRKWP        - Armour39 WILLpower
+A39WRKPO        - Armour39 Posture
+A39WRKSR        - Armour39 Stride Rate
+A39HRA          - Armour39 Average Heart Rate
+A39SUMAV        - Armour39 Summary Average Heart Rate
+A39SUMMA        - Armour39 Summary Max Heart Rate
+A39SUMTI        - Armour39 Summary Workout Time
+
+BCNAPRBA        - BLE Beacon ActivePERS Battery Level
+BCNAPRPA        - BLE Beacon ActivePERS Panic
+BCNAPRFD        - BLE Beacon ActivePERS Fall Detected
+BCNAPRCA        - BLE Beacon ActivePERS Clear Alarm
+BCNAPRTS        - BLE Beacon ActivePERS Total Steps
+
+LEHHRMHR        - BLE Heart Rate Sensor Heart Rate
+LEHHRMCD        - BLE Heart Rate Sensor Contact Detected
+LEHHRMEE        - BLE Heart Rate Sensor Energy Expended
+LEHHRMRR        - BLE Heart Rate Sensor RR Interval
+LEHBAT          - BLE Heart Rate Sensor Battery Level
+
+L1HHRMHR        - BLE Heart Rate Sensor 1 Heart Rate
+L1HHRMCD        - BLE Heart Rate Sensor 1 Contact Detected
+L1HHRMEE        - BLE Heart Rate Sensor 1 Energy Expended
+L1HHRMRR        - BLE Heart Rate Sensor 1 RR Interval
+L1HBAT          - BLE Heart Rate Sensor 1 Battery Level
+
+L2HHRMHR        - BLE Heart Rate Sensor 2 Heart Rate
+L2HHRMCD        - BLE Heart Rate Sensor 2 Contact Detected
+L2HHRMEE        - BLE Heart Rate Sensor 2 Energy Expended
+L2HHRMRR        - BLE Heart Rate Sensor 2 RR Interval
+L2HBAT          - BLE Heart Rate Sensor 2 Battery Level
+
+L3HHRMHR        - BLE Heart Rate Sensor 3 Heart Rate
+L3HHRMCD        - BLE Heart Rate Sensor 3 Contact Detected
+L3HHRMEE        - BLE Heart Rate Sensor 3 Energy Expended
+L3HHRMRR        - BLE Heart Rate Sensor 3 RR Interval
+L3HBAT          - BLE Heart Rate Sensor 3 Battery Level
+
+L4HHRMHR        - BLE Heart Rate Sensor 4 Heart Rate
+L4HHRMCD        - BLE Heart Rate Sensor 4 Contact Detected
+L4HHRMEE        - BLE Heart Rate Sensor 4 Energy Expended
+L4HHRMRR        - BLE Heart Rate Sensor 4 RR Interval
+L4HBAT          - BLE Heart Rate Sensor 4 Battery Level
+
+CAMPIC          - Camera photo
+
+FITSTP          - Fitbit Steps
+FITTST          - Fitbit Tracker Steps
+FITDIS          - Fitbit Distance
+FITTDI          - Fitbit Tracker Distance
+FITCAL          - Fitbit Calories
+FITTCA          - Fitbit Tracker Calories
+FITCAB          - Fitbit Calories BMR
+FITFLO          - Fitbit Floors
+FITTFL          - Fitbit Tracker Floors
+FITELE          - Fitbit Elevation
+FITTEL          - Fitbit Tracker Elevation
+FITMSE          - Fitbit Minutes Sedentary
+FITTMS          - Fitbit Tracker Minutes Sedentary
+FITMLA          - Fitbit Minutes Lightly Active
+FITTML          - Fitbit Tracker Minutes Lightly Active
+FITMFA          - Fitbit Minutes Fairly Active
+FITTMF          - Fitbit Tracker Minutes Fairly Active
+FITMVA          - Fitbit Minutes Very Active
+FITTMV          - Fitbit Tracker Minutes Very Active
+FITACA          - Fitbit Activity Calories
+FITTAC          - Fitbit Tracker Activity Calories
+FITCIN          - Fitbit Calories In
+FITWAT          - Fitbit Water
+FITTIB          - Fitbit Time In Bed
+FITMAS          - Fitbit Minutes Asleep
+FITAWA          - Fitbit Awakenings
+FITMIA          - Fitbit Minutes Awake
+FITMFA          - Fitbit Minutes To Fall Asleep
+FITMAW          - Fitbit Minutes After Wakeup
+FITSEF          - Fitbit Sleep Efficiency
+FITBOW          - Fitbit Body Weight
+FITBMI          - Fitbit Body Mass Index
+FITBOF          - Fitbit Body Fat
+
+INMECGI         - iNeedMD ECG I Lead
+INMECGII        - iNeedMD ECG II Lead
+INMECGV1        - iNeedMD ECG V1 Lead
+INMECGV2        - iNeedMD ECG V2 Lead
+INMECGV3        - iNeedMD ECG V3 Lead
+INMECGV4        - iNeedMD ECG V4 Lead
+INMECGV5        - iNeedMD ECG V5 Lead
+INMECGV6        - iNeedMD ECG V6 Lead
+
+MGHGLULV        - MyGlucoHealth Glucose Level
+MGHGLUEV        - MyGlucoHealth Glucose Event
+
+MYTSYS          - Mytech systolic blood pressure
+MYTDIA          - Mytech diastolic blood pressure
+MYTHRA          - Mytech heart rate
+
+OBDSPE          - On-board diagnostics speed km/h
+OBDVIMSPE       - On-board diagnostics speed mi/h
+OBDRPM          - On-board diagnostics revolutions per minute
+OBDAEL          - On-board diagnostics average engine load
+OBDMAF          - On-board diagnostics MAF air flow rate
+OBDBAR          - On-board diagnostics barometric pressure
+OBDRTH          - On-board diagnostics relative throttle position
+OBDAAT          - On-board diagnostics ambient air temperature °C
+OBDVIMAAT       - On-board diagnostics ambient air temperature °F
+OBDFRA          - On-board diagnostics fuel rate L/h
+OBDVIMFRA       - On-board diagnostics fuel rate gal/h
+OBDIAT          - On-board diagnostics intake air temperature °C
+OBDVIMIAT       - On-board diagnostics intake air temperature °F
+OBDHYB          - On-board diagnostics hybrid battery
+OBDECT          - On-board diagnostics engine coolant temperature °C
+OBDVIMECT       - On-board diagnostics engine coolant temperature °F
+OBDFPR          - On-board diagnostics fuel pressure
+OBDRES          - On-board diagnostics run time since engine start
+OBDDML          - On-board diagnostics distance traveled with malfunction indicator lamb on measured in km
+OBDVIMDML       - On-board diagnostics distance traveled with malfunction indicator lamb on measured in mi
+OBDEOT          - On-board diagnostics engine oil temperature °C
+OBDVIMEOT       - On-board diagnostics engine oil temperature °F
+OBDCEG          - On-board diagnostics commanded EGR
+OBDCEP          - On-board diagnostics commanded evaporative purge
+OBDFLI          - On-board diagnostics fuel level input
+
+SFDECGC1        - Schiller FD12 ECG Channel 1
+SFDECGC2        - Schiller FD12 ECG Channel 2
+SFDECGC3        - Schiller FD12 ECG Channel 3
+SFDECGC4        - Schiller FD12 ECG Channel 4
+SFDECGC5        - Schiller FD12 ECG Channel 5
+SFDECGC6        - Schiller FD12 ECG Channel 6
+SFDECGC7        - Schiller FD12 ECG Channel 7
+SFDECGC8        - Schiller FD12 ECG Channel 8
+SFDECGC9        - Schiller FD12 ECG Channel 9
+
+SDRALT          - Sensordrone Altitude m
+SDRVIMALT       - Sensordrone Altitude yd
+SDRBATV         - Sensordrone Battery Voltage
+SDRCAP          - Sensordrone Capacitance
+SDRADC          - Sensordrone External ADC
+SDRHUM          - Sensordrone Humidity
+SDRIRTEMP       - Sensordrone IR Temperature °C
+SDRVIMIRT       - Sensordrone IR Temperature °F
+SDROXIDGAS      - Sensordrone Oxidizing gas
+SDRPRECGAS      - Sensordrone Precision Gas
+SDRREDUGAS      - Sensordrone Reducing Gas
+SDRPRES         - Sensordrone Pressure
+SDRRGBCRED      - Sensordrone RGBC Red
+SDRRGBCGREEN    - Sensordrone RGBC Green
+SDRRGBCBLUE     - Sensordrone RGBC Blue
+SDRRGBCCLEAR    - Sensordrone RGBC Clear
+SDRRGBCLUM      - Sensordrone RGBC Luminosity
+SDRRGBCTEMP     - Sensordrone RGBC Color Temperature
+SDRTEMP         - Sensordrone Temperature °C
+SDRVIMTEMP      - Sensordrone Temperature °F
+
+TISTEMAM        - TI SensorTag Ambient Temperature °C
+TISVIMTA        - TI SensorTag Ambient Temperature °F
+TISTEMOB        - TI SensorTag Object Temperature °C
+TISVIMTO        - TI SensorTag Object Temperature °F
+TISACCX         - TI SensorTag Accelerometer X
+TISACCY         - TI SensorTag Accelerometer Y
+TISACCZ         - TI SensorTag Accelerometer Z
+TISMAGX         - TI SensorTag Magnetometer X
+TISMAGY         - TI SensorTag Magnetometer Y
+TISMAGZ         - TI SensorTag Magnetometer Z
+TISGYRX         - TI SensorTag Gyroscope X
+TISGYRY         - TI SensorTag Gyroscope Y
+TISGYRZ         - TI SensorTag Gyroscope Z
+TISHUM          - TI SensorTag Humidity
+TISBAR          - TI SensorTag Barometric Pressure
+TISBUTL         - TI SensorTag Left Button
+TISBUTR         - TI SensorTag Right Button
+
+VCHECG          - VC HealthPatch ECG Signal
+VCHBAT          - VC HealthPatch Battery Level
+VCHHRA          - VC HealthPatch Heart Rate
+VCHSTE          - VC HealthPatch Step Count
+VCHACT          - VC HealthPatch Activity
+VCHSTR          - VC HealthPatch Stress Level
+VCHEER          - VC HealthPatch Energy Expenditure Rate
+VCHEEX          - VC HealthPatch Energy Expended
+VCHIMP          - VC HealthPatch Impedance
+VCHACX          - VC HealthPatch Accelerometer X
+VCHACY          - VC HealthPatch Accelerometer Y
+VCHACZ          - VC HealthPatch Accelerometer Z
+VCHRES          - VC HealthPatch Respiration Rate
+VCHRTR          - VC HealthPatch RR Interval
+VCHSKT          - VC HealthPatch Skin Temperature
+VCHFAL          - VC HealthPatch Fall Event
+
+ZEPGPAHR        - Zephyr Heart Rate
+ZEPGPAHRMIN     - Zephyr Heart Rate Min/Interval
+ZEPGPAHRMAX     - Zephyr Heart Rate Max/Interval
+ZEPGPAHRAVG     - Zephyr Heart Rate Average/Interval
+ZEPGPAHRSTD     - Zephyr Heart Rate Standard Deviation/Interval
+ZEPGPARR        - Zephyr Respiration Rate
+ZEPGPARRMIN     - Zephyr Respiration Rate Min/Interval
+ZEPGPARRMAX     - Zephyr Respiration Rate Max/Interval
+ZEPGPARRAVG     - Zephyr Respiration Rate Average/Interval
+ZEPGPARRSTD     - Zephyr Respiration Rate Standard Deviation/Interval
+ZEPGPAST        - Zephyr Skin Temperature °C
+ZEPVIMTEMP      - Zephyr Skin Temperature °F
+ZEPGPAPO        - Zephyr Posture
+ZEPGPAAC        - Zephyr Activity
+ZEPGPAACMIN     - Zephyr Activity Min/Interval
+ZEPGPAACMAX     - Zephyr Activity Max/Interval
+ZEPGPAACAVG     - Zephyr Activity Average/Interval
+ZEPGPAACSTD     - Zephyr Activity Standard Deviation/Interval
+ZEPGPABS        - Zephyr Battery Status
+ZEPGPAOK        - Zephyr HR Data OK
+ZEPECG          - Zephyr ECG
+ZEPACCX         - Zephyr Accelerometer X
+ZEPACCY         - Zephyr Accelerometer Y
+ZEPACCZ         - Zephyr Accelerometer Z
+ZEPACCA         - Zephyr Accelerometer Absolute Value
+ZEPACCPM        - Zephyr Pedometer (calculated from accelerometer)
+ZEPRTR          - Zephyr R to R
+ZEPRTRA         - Zephyr R to R (absolute)
+ZEPRTRAD        - Zephyr R to R (absolute, distinct)
+ZEPSDPDT        - Zephyr Device Internal Temperature °C
+ZEPSDPDTMIN     - Zephyr Device Internal Temperature °C Min/Interval
+ZEPSDPDTMAX     - Zephyr Device Internal Temperature °C Max/Interval
+ZEPSDPDTAVG     - Zephyr Device Internal Temperature °C Average/Interval
+ZEPSDPDTSTD     - Zephyr Device Internal Temperature °C Standard Deviation/Interval
+ZEPVIMTDEV      - Zephyr Device Internal Temperature °F
+ZEPVIMTDEVMIN   - Zephyr Device Internal Temperature °F Min/Interval
+ZEPVIMTDEVMAX   - Zephyr Device Internal Temperature °F Max/Interval
+ZEPVIMTDEVAVG   - Zephyr Device Internal Temperature °F Average/Interval
+ZEPVIMTDEVSTD   - Zephyr Device Internal Temperature °F Standard Deviation/Interval
+ZEPSDPET        - Zephyr Estimated Core Temperature °C
+ZEPVIMTCOR      - Zephyr Estimated Core Temperature °F
+
+ZEHHSDHR        - Zephyr HxM Heart Rate
+ZEHHSDDI        - Zephyr HxM Distance m
+ZEHVIMDI        - Zephyr HxM Distance yd
+ZEHHSDSP        - Zephyr HxM Instantaneous Speed m/s
+ZEHVIMSP        - Zephyr HxM Instantaneous Speed ft/s
+ZEHHSDST        - Zephyr HxM Strides
+ZEHHSDBC        - Zephyr HxM Battery Charge
+ZEHHSDRR        - Zephyr HxM R to R
+
+Z1HHSDHR        - Zephyr HxM 1 Heart Rate
+Z1HHSDDI        - Zephyr HxM 1 Distance m
+Z1HVIMDI        - Zephyr HxM 1 Distance yd
+Z1HHSDSP        - Zephyr HxM 1 Instantaneous Speed m/s
+Z1HVIMSP        - Zephyr HxM 1 Instantaneous Speed ft/s
+Z1HHSDST        - Zephyr HxM 1 Strides
+Z1HHSDBC        - Zephyr HxM 1 Battery Charge
+Z1HHSDRR        - Zephyr HxM 1 R to R
+
+Z2HHSDHR        - Zephyr HxM 2 Heart Rate
+Z2HHSDDI        - Zephyr HxM 2 Distance m
+Z2HVIMDI        - Zephyr HxM 2 Distance yd
+Z2HHSDSP        - Zephyr HxM 2 Instantaneous Speed m/s
+Z2HVIMSP        - Zephyr HxM 2 Instantaneous Speed ft/s
+Z2HHSDST        - Zephyr HxM 2 Strides
+Z2HHSDBC        - Zephyr HxM 2 Battery Charge
+Z2HHSDRR        - Zephyr HxM 2 R to R
+
+Z3HHSDHR        - Zephyr HxM 3 Heart Rate
+Z3HHSDDI        - Zephyr HxM 3 Distance m
+Z3HVIMDI        - Zephyr HxM 3 Distance yd
+Z3HHSDSP        - Zephyr HxM 3 Instantaneous Speed m/s
+Z3HVIMSP        - Zephyr HxM 3 Instantaneous Speed ft/s
+Z3HHSDST        - Zephyr HxM 3 Strides
+Z3HHSDBC        - Zephyr HxM 3 Battery Charge
+Z3HHSDRR        - Zephyr HxM 3 R to R
+
+Z4HHSDHR        - Zephyr HxM 4 Heart Rate
+Z4HHSDDI        - Zephyr HxM 4 Distance m
+Z4HVIMDI        - Zephyr HxM 4 Distance yd
+Z4HHSDSP        - Zephyr HxM 4 Instantaneous Speed m/s
+Z4HVIMSP        - Zephyr HxM 4 Instantaneous Speed ft/s
+Z4HHSDST        - Zephyr HxM 4 Strides
+Z4HHSDBC        - Zephyr HxM 4 Battery Charge
+Z4HHSDRR        - Zephyr HxM 4 R to R
+
+[macmacmacmac - sensor MAC address]
+
+[YYYY-MM-DD-hh-mm-ss - date and time]
