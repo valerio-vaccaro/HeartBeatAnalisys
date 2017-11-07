@@ -1,4 +1,4 @@
-# HeartBeatAnalisys
+# HeartBeatAnalysis
 
 ## Introduction
 Based on the results of [My Activity Dashboard](https://valerio-vaccaro.shinyapps.io/MyActivityDashboard/) (developed for the Coursera course called Developing Data Products) this application allow the analysis of sportive activities inside the R platform.
